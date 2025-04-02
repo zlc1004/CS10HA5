@@ -2,12 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="ZhangHA5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Zhang Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="container"></div>
-    <script src="ZhangHA5.js"></script>
+    <main>
+        <header>
+            <h1 id="resume-title">Lucas Zhang's Resume</h1>
+            <p class="contact-info">Grade 9 at Sentinel Secondary School | Email: lucasz228@edu.sd45.bc.ca</p>
+        </header>
+
+        <section class="summary">
+            <h2>About Me</h2>
+            <p>I am a ninth-grade student at Sentinel Secondary School. Coding is my favorite hobby, and I have a passion for creating impactful applications and systems.</p>
+        </section>
+
+        <section class="experience">
+            <h2>Personal Projects</h2>
+            <div class="job-entry" id="project1">
+                <a href="https://kobosh.com"><h3>kobosh.com</h3></a>
+                <span class="date">2023 - Present</span>
+                <ul>
+                    <li>Developed several small-scale web applications to practice coding skills.</li>
+                    <li>Had fun with friends</li>
+                </ul>
+            </div>
+            <div class="job-entry" id="project2">
+                <a href="https://github.com/zlc1004/discross/"><h3>Discross</h3></a>
+                <span class="date">2020 - Present</span>
+                <ul>
+                    <li>Discross is a webhook bridge to send messages on Discord aimed at supporting all platforms that support HTML. For example, legacy devices like IE, and kindle.</li>
+                    <li>Learnt new programming languages and frameworks through online courses.</li>
+                </ul>
+            </div>
+            <div class="job-entry" id="project3">
+                <a href="https://github.com/zlc1004/capchaSolver"><h3>capchaSolver</h3></a>
+                <span class="date">2024</span>
+                <ul>
+                    <li>A small project by me, aimed to solve simple captchas</li>
+                    <li>Learnt <a href="https://www.tensorflow.org/">TensorFlow</a> and <a href="https://pytorch.org/">pytorch</a></li>
+                    <li>Yes i know captcha is spelt incorrectly.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="school-entry" id="edu1">
+                <h3>Sentinel Secondary School</h3>
+                <span class="date">2023 - Present</span>
+            </div>
+            <div class="school-entry" id="edu2">
+                <h3>West Bay Elementary School</h3>
+                <span class="date">2018 - 2019</span>
+            </div>
+        </section>
+    </main>
+
+    <button onclick="toggleDarkMode()" class="theme-toggle-btn" aria-label="Toggle Dark Mode">⚙️</button>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
